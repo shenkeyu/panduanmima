@@ -61,6 +61,12 @@ def main():
    if trytimes <=0:
         print('尝试次数太多！')
 
+   f1 = open('pwd.txt')
+   #content = f1.read()
+   for line in f1.readlines():
+    print(line)
+   f1.close()
+   #print(content)
 
 
 
